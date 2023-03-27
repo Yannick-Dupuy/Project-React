@@ -1,0 +1,32 @@
+.main {
+  text-align: center;
+  border: 1px solid grey;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  width: 100%;
+
+  &__title {
+    text-align: left;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+  }
+
+  &__text {
+    text-align: left;
+    padding-left: 1em;
+    color: #6c849a;
+    font-weight: 500;
+  }
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  margin: 0.5em 1.5em;
+  color: #6c849a;
+  text-align: left;
+  padding-left: 0.5em;
+  height: 30px;
+}
